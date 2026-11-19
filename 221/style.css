@@ -25,3 +25,10 @@ div {
     border: 1px solid;
     grid-template-columns: repeat(3, 150px);
 }
+#parent4 {
+    display: grid;
+    width: 500px;
+    height: 500px;
+    border: 1px solid;
+    grid-template-columns: 100px 150px 200px;
+}
