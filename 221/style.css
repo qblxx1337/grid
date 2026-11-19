@@ -18,3 +18,10 @@ div {
     border: 1px solid;
     grid-template-columns: repeat(2, 200px);
 }
+#parent3 {
+    display: grid;
+    width: 500px;
+    height: 500px;
+    border: 1px solid;
+    grid-template-columns: repeat(3, 150px);
+}
