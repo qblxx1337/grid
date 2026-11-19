@@ -1,0 +1,12 @@
+#parent {
+    display: grid;
+    width: 500px;
+    height: 500px;
+    border: 1px solid;
+    grid-template-columns: repeat(9,1fr);
+}
+
+div {
+    width: 50px;
+    border: 1px solid;
+}
