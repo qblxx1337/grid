@@ -10,3 +10,12 @@
 div {
     border: 1px solid rgba(0, 0, 0, 0.288);
 }
+
+#parent2 {
+    display: grid;
+    grid-template: 0.5fr 1fr/ 2fr 1fr 1fr 1.5fr;
+    border: 2px solid red;
+    width: 900px;
+    height: 250px;
+    padding: 5px;
+}
