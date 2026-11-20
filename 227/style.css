@@ -1,0 +1,10 @@
+#parent {
+    display: grid;
+    grid-template-columns: 200px auto;
+    width: 900px;
+    border: 2px solid red;
+}
+
+div {
+    border: 1px solid rgba(128, 128, 128, 0.534);
+}
