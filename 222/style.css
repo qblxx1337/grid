@@ -16,3 +16,10 @@ div{
     width: 900px;
     margin: 20px 0;
 }
+#parent3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    border: 1px solid green;
+    width: 900px;
+    margin: 20px 0;
+}
