@@ -8,3 +8,9 @@
 div {
     border: 1px solid green;
 }
+#parent2 {
+    display: grid;
+    grid-template-columns: 100px 20% 1fr 2fr 3fr;
+    border: 1px solid;
+    width: 900px;
+}
