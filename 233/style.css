@@ -10,18 +10,19 @@ div {
 	padding: 10px;
 	border: 1px solid #696989;
 }
-#elem1 {
+#parent > #elem1 {
 	grid-row: 1 / 2;
 }
-#elem2 {
+#parent > #elem2 {
 	grid-row: 2 / 3;
 }
-#elem3 {
+#parent > #elem3 {
 	grid-row: 1 / 2;
 }
-#elem4 {
+#parent > #elem4 {
 	grid-row: 2 / 4;
 }
-#elem5 {
+#parent > #elem5 {
 	grid-row: 3 / 4;
 }
+
