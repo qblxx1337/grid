@@ -5,8 +5,15 @@
 	border: 2px solid #696989;
 	width: 600px;
 }
-#parent > div {
-	height: 100px;
-	padding: 10px;
+div {
 	border: 1px solid #696989;
+}
+
+#parent2 {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr) repeat(2, 2fr);
+	grid-gap: 10px;
+	border: 2px solid #696989;
+	width: 500px;
+    height: 500px;
 }
