@@ -1,7 +1,10 @@
 #parent {
     display: grid;
-
+    grid-template: 0.5fr 1fr/ 1fr 2fr 1.5fr 3fr;
     border: 2px solid red;
+    width: 900px;
+    height: 250px;
+    padding: 5px;
 }
 
 div {
