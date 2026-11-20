@@ -3,6 +3,7 @@
 	grid-template-columns: repeat(4, 1fr);
 	grid-gap: 10px;
 	border: 2px solid #696989;
+    height: 200px;
 	width: 600px;
 }
 div {
@@ -15,5 +16,5 @@ div {
 	grid-gap: 10px;
 	border: 2px solid #696989;
 	width: 500px;
-    height: 500px;
+    height: 200px;
 }
