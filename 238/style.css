@@ -1,0 +1,12 @@
+#parent {
+	display: grid;
+	row-gap: 25%;
+	grid-template-rows: repeat(3, 100px);
+	padding: 20px;
+	border: 2px solid #696989;
+	width: 600px;
+	height: 800px;
+}
+div {
+	border: 1px solid #696989;
+}
