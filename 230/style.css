@@ -7,3 +7,9 @@
 div {
     border: 1px solid rgba(0, 0, 0, 0.288);
 }
+#parent2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    width: 600px;
+    border: 2px solid red;
+}
