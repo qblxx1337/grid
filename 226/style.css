@@ -8,3 +8,9 @@
 div {
     border: 1px solid green;
 }
+#parent2 {
+    display: grid;
+    grid-template-columns: repeat(4, 100px) repeat(3, 2fr);
+    border: 1px solid;
+    width: 900px;
+}
