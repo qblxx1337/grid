@@ -1,0 +1,12 @@
+#parent {
+	display: grid;
+	column-gap: 20%;
+	grid-template: repeat(3, 100px)/repeat(3,100px);
+	padding: 20px;
+	border: 2px solid #696989;
+	width: 600px;
+	height: 300px;
+}
+div {
+	border: 1px solid #696989;
+}
