@@ -1,0 +1,23 @@
+#parent {
+	display: grid;
+	height: 300px;
+	width: 400px;
+	padding: 10px;
+	border: 2px solid #696989;
+}
+div {
+	padding: 10px;
+	border: 1px solid #696989;
+}
+#parent > #elem1 {
+	grid-column: 1 / 2;
+}
+#parent > #elem2 {
+	grid-column: 2 / 3;
+}
+#parent > #elem3 {
+	grid-column: 3 / 4;
+}
+#parent > #elem4 {
+	grid-column: 1 / 4;
+}
