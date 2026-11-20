@@ -37,3 +37,11 @@ div {
     height: 250px;
     padding: 5px;
 }
+#parent5 {
+    display: grid;
+    grid-template: 1.5fr 1fr/ 0.5fr 0.5fr 0.7fr 1fr 1fr;
+    border: 2px solid red;
+    width: 700px;
+    height: 250px;
+    padding: 5px;
+}
